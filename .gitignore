@@ -3,3 +3,10 @@ echo "node_modules/" >> .gitignore
 
 # Ou edite manualmente adicionando:
 # node_modules/
+# Cria o .gitignore com conteúdo essencial
+echo "node_modules/" > .gitignore
+echo ".env" >> .gitignore
+echo "dist/" >> .gitignore
+echo "build/" >> .gitignore
+echo ".next/" >> .gitignore
+echo "*.log" >> .gitignore
