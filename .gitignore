@@ -1,0 +1,5 @@
+# Se não existir, cria o arquivo
+echo "node_modules/" >> .gitignore
+
+# Ou edite manualmente adicionando:
+# node_modules/
